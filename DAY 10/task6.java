@@ -113,16 +113,3 @@ public class task6 {
 }
 
 
-/*
-Design Document editor where user create different types of document like text_doc,ImageDoc,SpreadsheetDoc
-REQUIREMENT:
-1. Each Document should -> open, save,close
-2. Different document types behave differently
-    ->Text - shows text content
-    ->Image - renders Image
-    ->Spreadsheet - Calculate cells
-3.RULES:
- User should not know internal logic //abstraction
- Document data must be protected //encapsulation
- System should allow adding  new document types //polymorphism    
-*/

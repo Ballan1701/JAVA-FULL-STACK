@@ -2,6 +2,7 @@
 import java.util.*;
 class product
 {
+    public static int stock;
     int id;
     String name;
     double price; 
