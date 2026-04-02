@@ -66,6 +66,9 @@ class OrderService {
         order.product.stock -= order.quantity;
         System.out.println("Order placed successfully of " + order.quantity + " " + order.product.name + "(s) by " + order.user.name);
     }
+
+    public class Service {
+    }
 }
 
 public class task8 {
